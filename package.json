@@ -1,0 +1,34 @@
+{
+  "name": "data_structure",
+  "version": "1.0.0",
+  "description": "testing data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Matias0034/Data_Strucutres_Testing.git"
+  },
+  "keywords": [
+    "Data",
+    "structures",
+    "TypeScript",
+    "Algorithm",
+    "LinkedList",
+    "ArrayList",
+    "Tree",
+    "Graph",
+    "Hasht",
+    "Table",
+    "Queues",
+    "Javascript",
+    "POO"
+  ],
+  "author": "Robinson Aguilar Bascuñan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matias0034/Data_Strucutres_Testing/issues"
+  },
+  "homepage": "https://github.com/Matias0034/Data_Strucutres_Testing#readme"
+}
