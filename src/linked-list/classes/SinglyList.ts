@@ -1,18 +1,5 @@
-interface HeadSingleList {
-    value: any,
-    next: Nodes | null
-}
-
-class Nodes implements HeadSingleList{
-
-    next: Nodes | null;
-    value: any;
-
-    constructor(value: any) {
-        this.value = value;
-        this.next = null
-    }
-}
+import { HeadSingleList } from '../interfaces/singlyList'
+import { Nodes } from './Node'
 
 export class MySinglyLinkedList {
     private head: HeadSingleList
@@ -38,7 +25,3 @@ export class MySinglyLinkedList {
         this.length++
     }
 }
-
-let mySinglyLinkedList = new MySinglyLinkedList('ss')
-
-mySinglyLinkedList.append(1)

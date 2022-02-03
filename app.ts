@@ -1,3 +1,5 @@
-import { MySinglyLinkedList } from './src/linked-list/singlyList'
 
-MySinglyLinkedList
+import LinkedList from './src/linked-list/index'
+
+
+LinkedList.execute()
